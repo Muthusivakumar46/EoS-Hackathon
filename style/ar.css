@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #708e91;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #000000;
+}
+
+video, audio {
+    margin: 10px 0;
+    border: 1px solid #faac03;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #edfd03;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* aside */
+.sidebar {
+    background-color: #f8f9fa; 
+    padding: 0;             
+    border: 1px solid #ddd;    
+    float: left;
+    height:auto;
+}
+
+.sidebar h3 {
+    font-size: 1.5em;          
+    margin-bottom: 15px;       
+    color: #333;              
+}
+
+.sidebar ul {
+    padding: 0;                
+    list-style-type: none;     
+}
+
+.sidebar li {
+    margin-bottom: 10px;       
+}
+
+.sidebar a {
+    text-decoration: none;      /* Remove underline from links */
+    color: #007bff;            /* Bootstrap primary color */
+    transition: color 0.2s;    /* Smooth transition for hover effect */
+}
+
+.sidebar a:hover {
+    color: #0056b3;            /* Darker shade on hover */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #000;
+}
+
+.buy-button {
+    background: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background: #218838;
+}
+
+footer {
+    background: #fa7a02;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
